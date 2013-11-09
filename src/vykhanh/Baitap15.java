@@ -11,14 +11,14 @@ public class Baitap15 {
 		int n = 5 ;
 //		int i = 2;
 		float S =0; 
-		int fi = 0;
+		float fi = 0;
 		
 //		while (i<=n){
 //			fi = fi + i;
 //			S = S + 1/fi;
 //			i = i+1; 
 //		}
-		for (int i=1; i<=n; i++){
+		for (float i=1; i<=n; i++){
 			fi=fi+i;
 			S=S+(1/fi);  
 		}
